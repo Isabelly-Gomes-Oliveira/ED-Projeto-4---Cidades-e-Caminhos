@@ -1,0 +1,98 @@
+===== ARQUIVOS UTILIZADOS =====
+
+--- Arquivo texto 'GrafoOnibusSaoPaulo.txt'
+	-- Cada registro contém nomes de cidades de origem e de destino e a distância entre elas em quilômetros.
+	-- As ligações são bidirecionais, ou seja, valem tanto para a ida quanto para a volta de uma cidade para outra.
+	-- Os campos deverão ser separados por ';': Americana;Campinas;40
+
+--- Arquivo binário 'CidadesSaoPaulo.dat'
+	-- Deve ter o nome da cidade (string 25 posições) e a coordenada cartesiana (x, y) onde a cidade deve ser localizada no mapa que será exibido na tela.
+	-- Os dados desse arquivo estão dispostos em ordem alfabética de nome de cidade.
+	-- 'x' e 'y' são, respectivamente, largura e altura no mapa que será exibido.
+
+
+
+
+===== OBJETIVO =====
+
+--- Deseja-se que o aplicativo efetue a manutenção do arquivo de cidades (CidadesSaoPaulo.dat) e do arquivo de caminhos entre as cidades (GrafoOnibusSaoPaulo.txt), bem como permita a busca de caminhos entre cidades através de ônibus.
+
+
+
+
+===== TAREFAS =====
+
+--- Codificar as classes 'Cidade' e 'Ligacao' de forma que sejam compatíveis com as interfaces e restrições definidas nas classes NoArvore, Arvore, ListaSimples e NoLista. Use, para essas classes, os códigos desenvolvidos durante as aulas e apresentados na apostila.
+	-- Não use outras classes para este programa.
+	-- A classe 'Cidade' deverá ter um atributo da classe ListaSimples, inicialmente vazio (uma lista simples de ligacoes).
+
+
+
+--- O arquivo binário de cidades deve ser lido recursivamente (um por um) e seus registros armazenados em uma árvore de busca binária balanceada AVL, para fazer a manutenção dos dados de cidades.
+	-- Cada registro lido e armazenado na árvore AVL deverá ser do tipo 'Cidade' (a classe).
+	-- Montagem da árvore balanceada AVL.
+
+--- O arquivo de texto de caminhos deve ser lido recursivamente (um por um) e a cidade de origem lida deve ser procurada na árvore e, quando encontrada, o caminho lido deverá ser armazenado dentro da lista simples de ligações daquela cidade (tipo de dado: 'Ligacao').
+
+
+===== NO FORMS =====
+
+
+
+
+=== GUIA "Cidades e Caminhos" ===
+
+--- btnIncluir quando pressionado:
+	-- Ler o nome da cidade que se deseja incluir e verificar se não existe (evento Leave do textBox).
+	-- Se não existir, o usuário vai clicar no mapa onde fica essa cidade para que suas coordenadas X e Y proporcionais sejam preenchidas nos numericUpDowns udX e udY.
+	-- Após isso, a cidade deve ser incluída na árvore de busca balanceada AVL.
+
+--- btnBuscar quando pressionado:
+	-- Se o nome digitado no txtNomeCidade existir na árvore de busca,deve-se mostrar os dados da cidade (as coordenadas e as suas ligações) no DataGridView. 
+
+--- btnAlterar quando pressionado:
+	-- Alterar as coordenadas proporcionais X e Y da cidade cujo nome foi buscado anteriormente e está exibida na tela, nesse momento.
+	-- Não é possível alterar nomes de cidades, somente coordenadas.
+
+--- btnExcluir quando pressionado:
+	-- Marcar como excluída da árvore de busca a cidade cujo nome foi buscado anteriormente e está exibida na tela, nesse momento.
+	-- Caso essa cidade possua ligação com alguma outra cidade, não poderá ser excluída.
+
+-- Botão [+] quando pressionado:
+	-- Verificar se o nome digitado existe na árvore.
+	-- Incluir, na lista simples de ligações da cidade atual, um nó com o nome da cidade Novo destino e sua distância.
+	-- Uma ligação desta cidade digitada com a cidade exibida deve também ser incluída na lista de ligações da cidade de destino.
+
+--- Botão [-] quando pressionado:
+	-- Excluir a ligação que corresponde à linha selecionada no dataGridView dgvLigacoes.
+	-- Excluir essa ligação na lista simples de ligações da cidade de origem e na cidade de destino, em seus respectivos nós da árvore de busca.
+
+--- No PictureBox que mostrará o mapa:
+	-- Deverá ser desenhado um pequeno círculo preenchido na localização geográfica (dimensões atuais do mapa) de cada cidade presente na árvore de busca, bem como escrever o nome da cidade próximo a esse círculo (evento Paint).
+	-- PictureBox que se ajuste ao tamanho da tela.
+
+--- Quando o usuário desejar buscar uma rota de ônibus entre a cidade atualmente exibida e uma cidade de destino qualquer, deverá selecionar a cidade de destino no combobox cbxCidadeDestino e pressionar o botão [Buscar Caminho].
+	-- Usar o algoritmo de Dijkstra para procurar caminhos.
+	-- Avisar se não encontrar um caminho
+	-- Caso encontre, exibir cada vértice da rota determinada pelo algoritmo no DataGridView abaixo.
+	-- Desenhar as linhas retas ligando as cidades que fazem parte dessa rota.
+
+--- Quando terminar a execução do programa:
+	-- A árvore de busca deverá ser percorrida em ordem, e seus registros gravados no arquivo binário de cidades em ordem crescente.
+	-- Como cada nó possui uma lista de ligações, os respectivos registros armazenados em cada uma dessas listas deverão ser gravados no arquivo texto de ligações.
+
+
+=== GUIA "Árvore Balanceada" ===
+
+--- A árvore AVL deverá ser desenhada no painel interno mostrando o nome de cada cidade nos nós exibidos e a quantidade de caminhos que ela possui. Não desenhe a lista simples de ligações de cada nó da árvore.
+
+
+
+
+===== PARA VERIFICAR ANTES DE ENTREGAR =====
+
+--- Comentar adequadamente o programa e o código programado;
+--- Nomear os identificadores de forma adequada;
+--- No início dos arquivos fonte, digitar comentário com os RAs e nomes dos alunos;
+--- Material a ser entregue: pasta completa do projeto contendo arquivos de dados compactados em um único arquivo, cujo nome será raMenor_raMaior_Proj4ED.zip (24187_24202_Proj4ED.zip, por exemplo).
+
