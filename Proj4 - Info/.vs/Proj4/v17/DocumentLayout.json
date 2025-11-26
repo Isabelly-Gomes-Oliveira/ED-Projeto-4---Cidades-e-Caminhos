@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|c:\\users\\isabelly\\onedrive\\documentos\\github\\ed-projeto-4---cidades-e-caminhos\\proj4 - info\\arvore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:arvore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:ligacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:cidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|c:\\users\\isabelly\\onedrive\\documentos\\github\\ed-projeto-4---cidades-e-caminhos\\proj4 - info\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\nolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:nolista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\iregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:iregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6740BFC1-3F71-402F-87E5-DFF5FD2CEB47}|Proj4.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 25,
+          "SelectedChildIndex": 19,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:44:39.329Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -118,64 +123,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
               "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Form1.Designer.cs",
               "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T21:47:52.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NoLista.cs",
-              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\NoLista.cs",
-              "RelativeDocumentMoniker": "NoLista.cs",
-              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\NoLista.cs",
-              "RelativeToolTip": "NoLista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T21:27:31.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Ligacao.cs",
-              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Ligacao.cs",
-              "RelativeDocumentMoniker": "Ligacao.cs",
-              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Ligacao.cs",
-              "RelativeToolTip": "Ligacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T21:26:56.942Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\IRegistro.cs",
-              "RelativeDocumentMoniker": "IRegistro.cs",
-              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\IRegistro.cs",
-              "RelativeToolTip": "IRegistro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T21:19:57.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Arvore.cs",
-              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Arvore.cs",
-              "RelativeDocumentMoniker": "Arvore.cs",
-              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Arvore.cs",
-              "RelativeToolTip": "Arvore.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAswOMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T21:17:35.187Z",
               "EditorCaption": ""
             },
             {
@@ -186,34 +142,49 @@
               "RelativeDocumentMoniker": "Cidade.cs",
               "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Cidade.cs",
               "RelativeToolTip": "Cidade.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T21:11:50.096Z"
+              "WhenOpened": "2025-10-19T21:11:50.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Ligacao.cs",
+              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Ligacao.cs",
+              "RelativeDocumentMoniker": "Ligacao.cs",
+              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Ligacao.cs",
+              "RelativeToolTip": "Ligacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T21:26:56.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoLista.cs",
+              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\NoLista.cs",
+              "RelativeDocumentMoniker": "NoLista.cs",
+              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\NoLista.cs",
+              "RelativeToolTip": "NoLista.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T21:27:31.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-19T19:55:49.121Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ISABELLY\\OneDrive\\Documentos\\GitHub\\ED-Projeto-4---Cidades-e-Caminhos\\Proj4 - Info\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:47:43.018Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
