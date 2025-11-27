@@ -9,3 +9,10 @@ G:\Chico\0Cotuca\anos letivos\2025\disciplinas\ED\Projetos\Proj4-Caminhos de Tre
 G:\Chico\0Cotuca\anos letivos\2025\disciplinas\ED\Projetos\Proj4-Caminhos de Trem São Paulo\Proj4\obj\Debug\Proj4.exe
 G:\Chico\0Cotuca\anos letivos\2025\disciplinas\ED\Projetos\Proj4-Caminhos de Trem São Paulo\Proj4\obj\Debug\Proj4.pdb
 G:\Chico\0Cotuca\anos letivos\2025\disciplinas\ED\Projetos\Proj4-Caminhos de Trem São Paulo\Proj4\obj\Debug\Proj4.exe.config
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.csproj.AssemblyReference.cache
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.Form1.resources
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.Properties.Resources.resources
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.csproj.GenerateResource.cache
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.csproj.CoreCompileInputs.cache
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.exe
+C:\Users\samum\OneDrive\Documentos\GitHub\ED-Projeto-4---Cidades-e-Caminhos\Proj4 - Info\obj\Debug\Proj4.pdb

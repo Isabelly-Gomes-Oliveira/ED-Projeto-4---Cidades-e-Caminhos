@@ -27,7 +27,8 @@ namespace Proj4
       this.x = x;
       this.y = y;
     }
-    public override string ToString()
+        public ListaSimples<Ligacao> Ligacoes { get => ligacoes; set => ligacoes = value; }
+        public override string ToString()
     {
       return Nome.TrimEnd() + " (" + ligacoes.QuantosNos + ")";
     }

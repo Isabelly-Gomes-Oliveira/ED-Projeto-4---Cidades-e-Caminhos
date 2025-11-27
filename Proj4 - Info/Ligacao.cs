@@ -24,6 +24,11 @@ namespace Proj4
             return (origem+destino).CompareTo(other.origem+other.destino);
         }
 
+
+        public string Origem { get => origem; set => origem = value; }
+        public string Destino { get => destino; set => destino = value; }
+        public int Distancia { get => distancia; set => distancia = value; }
+
         public override string ToString() { return $"Origem: {origem}; Destino: {destino}; Distância: ({distancia} km)"; }
     }
 }

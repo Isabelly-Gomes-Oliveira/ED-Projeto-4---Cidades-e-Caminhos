@@ -96,11 +96,11 @@
             this.tpCadastro.Controls.Add(this.groupBox3);
             this.tpCadastro.Controls.Add(this.groupBox1);
             this.tpCadastro.Controls.Add(this.pbMapa);
-            this.tpCadastro.Location = new System.Drawing.Point(4, 27);
+            this.tpCadastro.Location = new System.Drawing.Point(4, 31);
             this.tpCadastro.Margin = new System.Windows.Forms.Padding(4);
             this.tpCadastro.Name = "tpCadastro";
             this.tpCadastro.Padding = new System.Windows.Forms.Padding(4);
-            this.tpCadastro.Size = new System.Drawing.Size(1650, 834);
+            this.tpCadastro.Size = new System.Drawing.Size(1650, 830);
             this.tpCadastro.TabIndex = 0;
             this.tpCadastro.Text = "Cidades e Caminhos";
             this.tpCadastro.UseVisualStyleBackColor = true;
@@ -129,7 +129,7 @@
             this.lbDistanciaTotal.AutoSize = true;
             this.lbDistanciaTotal.Location = new System.Drawing.Point(11, 345);
             this.lbDistanciaTotal.Name = "lbDistanciaTotal";
-            this.lbDistanciaTotal.Size = new System.Drawing.Size(109, 18);
+            this.lbDistanciaTotal.Size = new System.Drawing.Size(133, 24);
             this.lbDistanciaTotal.TabIndex = 4;
             this.lbDistanciaTotal.Text = "Distância total: ";
             // 
@@ -143,18 +143,21 @@
             this.dataGridViewTextBoxColumn2});
             this.dgvRotas.Location = new System.Drawing.Point(11, 100);
             this.dgvRotas.Name = "dgvRotas";
+            this.dgvRotas.RowHeadersWidth = 51;
             this.dgvRotas.Size = new System.Drawing.Size(347, 242);
             this.dgvRotas.TabIndex = 3;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.HeaderText = "Rota passando por";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.Width = 200;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.HeaderText = "Distância";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             this.dataGridViewTextBoxColumn2.Width = 75;
             // 
@@ -166,13 +169,14 @@
             this.btnBuscarCaminho.TabIndex = 2;
             this.btnBuscarCaminho.Text = "Buscar caminhos";
             this.btnBuscarCaminho.UseVisualStyleBackColor = true;
+            this.btnBuscarCaminho.Click += new System.EventHandler(this.btnBuscarCaminho_Click_1);
             // 
             // cbxCidadeDestino
             // 
             this.cbxCidadeDestino.FormattingEnabled = true;
             this.cbxCidadeDestino.Location = new System.Drawing.Point(11, 56);
             this.cbxCidadeDestino.Name = "cbxCidadeDestino";
-            this.cbxCidadeDestino.Size = new System.Drawing.Size(243, 26);
+            this.cbxCidadeDestino.Size = new System.Drawing.Size(243, 30);
             this.cbxCidadeDestino.TabIndex = 1;
             // 
             // label6
@@ -180,7 +184,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(14, 34);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(129, 18);
+            this.label6.Size = new System.Drawing.Size(165, 24);
             this.label6.TabIndex = 0;
             this.label6.Text = "Cidade de Destino";
             // 
@@ -244,7 +248,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(233, 233);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 18);
+            this.label5.Size = new System.Drawing.Size(85, 24);
             this.label5.TabIndex = 7;
             this.label5.Text = "Distância";
             // 
@@ -253,7 +257,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(6, 232);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(96, 18);
+            this.label4.Size = new System.Drawing.Size(121, 24);
             this.label4.TabIndex = 6;
             this.label4.Text = "Novo destino";
             // 
@@ -266,7 +270,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(67, 24);
+            this.numericUpDown1.Size = new System.Drawing.Size(67, 28);
             this.numericUpDown1.TabIndex = 5;
             // 
             // txtNovoDestino
@@ -274,7 +278,7 @@
             this.txtNovoDestino.Location = new System.Drawing.Point(9, 253);
             this.txtNovoDestino.MaxLength = 25;
             this.txtNovoDestino.Name = "txtNovoDestino";
-            this.txtNovoDestino.Size = new System.Drawing.Size(216, 24);
+            this.txtNovoDestino.Size = new System.Drawing.Size(216, 28);
             this.txtNovoDestino.TabIndex = 3;
             // 
             // dgvLigacoes
@@ -285,18 +289,21 @@
             this.Column2});
             this.dgvLigacoes.Location = new System.Drawing.Point(7, 24);
             this.dgvLigacoes.Name = "dgvLigacoes";
+            this.dgvLigacoes.RowHeadersWidth = 51;
             this.dgvLigacoes.Size = new System.Drawing.Size(347, 205);
             this.dgvLigacoes.TabIndex = 0;
             // 
             // Column1
             // 
             this.Column1.HeaderText = "Ligada às cidades";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.Width = 200;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Distância";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.Width = 75;
             // 
@@ -337,7 +344,7 @@
             0,
             0});
             this.udY.Name = "udY";
-            this.udY.Size = new System.Drawing.Size(72, 24);
+            this.udY.Size = new System.Drawing.Size(72, 28);
             this.udY.TabIndex = 6;
             // 
             // label3
@@ -345,7 +352,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(213, 59);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(108, 18);
+            this.label3.Size = new System.Drawing.Size(138, 24);
             this.label3.TabIndex = 5;
             this.label3.Text = "Y proporcional:";
             // 
@@ -359,7 +366,7 @@
             0,
             0});
             this.udX.Name = "udX";
-            this.udX.Size = new System.Drawing.Size(72, 24);
+            this.udX.Size = new System.Drawing.Size(72, 28);
             this.udX.TabIndex = 4;
             // 
             // label2
@@ -367,7 +374,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(9, 59);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 18);
+            this.label2.Size = new System.Drawing.Size(140, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "X proporcional:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -377,7 +384,7 @@
             this.txtNomeCidade.Location = new System.Drawing.Point(123, 21);
             this.txtNomeCidade.MaxLength = 25;
             this.txtNomeCidade.Name = "txtNomeCidade";
-            this.txtNomeCidade.Size = new System.Drawing.Size(216, 24);
+            this.txtNomeCidade.Size = new System.Drawing.Size(216, 28);
             this.txtNomeCidade.TabIndex = 2;
             // 
             // label1
@@ -385,7 +392,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(6, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 18);
+            this.label1.Size = new System.Drawing.Size(155, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome da cidade:";
             // 
@@ -414,11 +421,11 @@
             // tpArvore
             // 
             this.tpArvore.Controls.Add(this.pnlArvore);
-            this.tpArvore.Location = new System.Drawing.Point(4, 27);
+            this.tpArvore.Location = new System.Drawing.Point(4, 31);
             this.tpArvore.Margin = new System.Windows.Forms.Padding(4);
             this.tpArvore.Name = "tpArvore";
             this.tpArvore.Padding = new System.Windows.Forms.Padding(4);
-            this.tpArvore.Size = new System.Drawing.Size(1650, 834);
+            this.tpArvore.Size = new System.Drawing.Size(1650, 830);
             this.tpArvore.TabIndex = 1;
             this.tpArvore.Text = "Árvore balanceada";
             this.tpArvore.UseVisualStyleBackColor = true;
@@ -436,7 +443,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1656, 864);
             this.Controls.Add(this.tabControl1);
